@@ -42,6 +42,8 @@
 #include "hardware.h"
 #include "cryptfs_hw.h"
 
+#define LOG_TAG "Cryptfs_hw"
+
 /*
  * When device comes up or when user tries to change the password, user can
  * try wrong password upto a certain number of times. If user enters wrong
